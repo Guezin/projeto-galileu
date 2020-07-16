@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  box-sizing: border-box;
+}
+
+body {
+  font: 300 16px Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: rgb(245, 247, 246);
+}
+
+.App {
+  text-align: center;
+}
+
+form input {
+  width: 80%;
+  height: 40px;
+  color: #555;
+  border: 1px solid #dcdcdc;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+.button {
+  width: 350px;
+  height: 40px;
+  background: #0f0c0c;
+  border: 0;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: 700;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  filter: brightness(90%);
+}
